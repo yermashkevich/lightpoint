@@ -1,6 +1,4 @@
 @import "./block/_buttons";
-@import "./pages/index";
-@import "./pages/signin";
 
 * {
     box-sizing: border-box;
@@ -229,3 +227,6 @@ button {
         }
     }
 }
+
+@import "./pages/index";
+@import "./pages/signin";
