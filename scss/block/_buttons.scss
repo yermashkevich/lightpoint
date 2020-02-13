@@ -1,0 +1,129 @@
+.btn {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 2.27px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+    padding: 12px 0;
+
+    &--primary {
+        font-size: 14px;
+        @media screen and (min-width: 768px) {
+            max-width: 160px;
+            padding: 14px 0;
+        }
+    }
+    &--secondary {
+        border-radius: 20px;
+        font-size: 14px;
+        @media screen and (min-width: 768px) {
+            padding: 13px 0;
+            max-width: 120px;
+        }
+    }
+
+    &--default {
+        background-color: #1ab0b9;
+
+        &:hover {
+            border: 2px solid #1ab0b9;
+            color: #1ab0b9;
+            background-color: transparent;
+        }
+    }
+
+    &--light {
+        background-color: #2b87dc;
+
+        &:hover {
+            border: 2px solid #2b87dc;
+            color: #2b87dc;
+            background-color: transparent;
+        }
+    }
+
+    &--dark {
+        background-color: #3a55af;
+
+        &:hover {
+            border: 2px solid #3a55af;
+            color: #3a55af;
+            background-color: transparent;
+        }
+    }
+
+    &--outline {
+        border: 2px solid #1ab0b9;
+        color: #1ab0b9;
+        background-color: transparent;
+
+        &:hover {
+            background-color: #1ab0b9;
+            color: #fff;
+        }
+    }
+    &--outline-dark {
+        border: 2px solid #000;
+        color: #000;
+        background-color: transparent;
+
+        &:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+
+    &--social {
+        align-items: center;
+        justify-content: space-between;
+
+        @media screen and (min-width: 1024px) {
+            max-width: 180px;
+        }
+    }
+
+    &--facebook {
+        background: #3c5a99;
+        padding: 9px 18px 10px 28px;
+       
+        &:hover {
+            border: 2px solid #3c5a99;
+            background: transparent;
+            color: #3c5a99;
+        }
+        
+        @media screen and (min-width: 1024px) {
+            padding: 13px 18px 13px 28px;
+        }
+    }
+
+    &--google {
+        background: #eee;
+        padding: 7px 11px 7px 28px;
+        color: #000000;
+
+        &:hover {
+            border: 2px solid #000;
+            background: transparent;
+        }
+
+        @media screen and (min-width: 1024px) {
+            padding: 11px 11px 11px 28px;
+        }
+    }
+}
