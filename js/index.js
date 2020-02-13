@@ -52,7 +52,6 @@ $(function(){
   });
 
   $('.create__form').submit(function() {
-    
 		$.ajax({
 			type: 'POST',
 			url: 'mail.php',
